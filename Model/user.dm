@@ -1,5 +1,5 @@
 mob
-	icon = ''
+	icon = 'userIcon.dmi'
 	verb
 		smile()
 		say()
