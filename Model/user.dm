@@ -1,8 +1,10 @@
 mob
 	Login()
-		loc = locate(/turf/startPort)
+		//loc = locate(/obj/startPort)
 		..()
 	icon = 'userIcon.dmi'
 	verb
-		smile()
-		say()
+		Smile()
+			world << "[usr] smiles"
+		Say(txt as text)
+			world << "[usr] says [txt]"
